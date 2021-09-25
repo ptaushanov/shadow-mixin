@@ -26,4 +26,13 @@ html {
   justify-content: center;
   font-size: 10rem;
   flex-flow: column;
+
+  .box {
+    margin: {
+      top: 2rem;
+    }
+
+    padding: 2rem;
+    @include shadow(2px)
+  }
 }
